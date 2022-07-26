@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import ManageGroups from "./pages/ManageGroups";
 import Navbar from "./pages/Navbar";
 import Pending from "./pages/Pending";
 import Profile from "./pages/Profile";
@@ -22,6 +23,7 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="dashboard" element={<Dashboard />}>
           <Route index element={<Profile />} />
+          <Route path="/dashboard/managegroups" element={<ManageGroups />} />
           <Route path="/dashboard/pending" element={<Pending />} />
           <Route path="/dashboard/submitted" element={<Submitted />} />
           <Route path="/dashboard/taskpage" element={<TaskPage />} />
