@@ -3,17 +3,16 @@ import { IoIosArrowBack, IoMdRefresh } from "react-icons/io";
 
 import Avatar from "./components/Avatar";
 import CustomCountDown from "./components/CustomCountDown";
-
-import {Editor, EditorState} from 'draft-js';
-import 'draft-js/dist/Draft.css';
+import Editojs from "./components/Editojs";
 
 const TaskPage = () => {
   console.log("hello");
-  const [editorState, setEditorState] = useState(()=> EditorState.createEmpty())
+
+  // const [codeValue, setCodeValue] = useState("");
 
   return (
     <>
-      <div className="flex justify-between mx-4 font-bold text-4xl my-3">
+      <div className="flex justify-between mx-2 mr-8 font-bold text-4xl my-3">
         <span className="block">
           {" "}
           <IoIosArrowBack />
@@ -53,16 +52,27 @@ const TaskPage = () => {
           skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
           sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
           jfsdf sdkfjsdlkflsdjfl sjdfls
+          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
+          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
+          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
+          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
+          jfsdf sdkfjsdlkflsdjfl sjdfls
+          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
+          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
+          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
+          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
+          jfsdf sdkfjsdlkflsdjfl sjdfls
         </div>
-
-        <div className="">
-          <p className="min-h-10/12 min-w-full border rounded-lg border-primary p-3 bg-slate-400 content-center self-center">
-          <Editor editorState={editorState} onChange={setEditorState}/>
-          </p>
-          <button className="btn my-4">submit</button>
+        <div>
+          <div className="border h-5 rounded-lg ss" style={{minHeight:"90%", overflowY:'scroll'}}>
+            
+            <Editojs />
+            {/* <button className="btn my-4">submit</button> */}
+          </div>
+          <button className="btn my-2 btn-wide">submit</button>
         </div>
       </div>
-      <div className="">
+      <div className="mx-8">
         <div class="avatar-group -space-x-4">
           <div class="avatar">
             <div class="w-12">
