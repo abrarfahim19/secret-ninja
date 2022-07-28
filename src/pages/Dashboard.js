@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
-  const admin = false;
+  const admin = true;
   const sideBarItems = (
     <>
       {/* Not Admin */}
@@ -11,28 +11,21 @@ const Dashboard = () => {
       </li>
 
       {/* Admin */}
-      {admin ? (
+      {admin && (
         <>
           <li>
-            <Link to="/dashboard/managestudent">Manage All Student</Link>
-          </li>
-          <li>
-            <Link to="/dashboard/addstudent">Add A Student</Link>
-          </li>
-          <li>
-            <Link to="/dashboard/addcolab">Add Colab</Link>
-          </li>
-        </>
-      ) : (
-        <>
-          <li>
-            <Link to="/dashboard/pending">Pending</Link>
-          </li>
-          <li>
-            <Link to="/dashboard/submitted">Submitted</Link>
+            <Link to="/dashboard/managegroups">Manage Groups</Link>
           </li>
         </>
       )}
+      <>
+        <li>
+          <Link to="/dashboard/pending">Pending</Link>
+        </li>
+        <li>
+          <Link to="/dashboard/submitted">Submitted</Link>
+        </li>
+      </>
     </>
   );
   return (
