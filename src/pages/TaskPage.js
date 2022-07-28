@@ -4,9 +4,17 @@ import { IoIosArrowBack, IoMdRefresh } from "react-icons/io";
 import Avatar from "./components/Avatar";
 import CustomCountDown from "./components/CustomCountDown";
 import Editojs from "./components/Editojs";
+import { Tooltip } from "./components/Tooltip";
 
 const TaskPage = () => {
   console.log("hello");
+
+  const data = [
+    { name: "hello" },
+    { name: "hello" },
+    { name: "hello" },
+    { name: "hello" },
+  ];
 
   // const [codeValue, setCodeValue] = useState("");
 
@@ -51,29 +59,30 @@ const TaskPage = () => {
           sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
           skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
           sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
-          jfsdf sdkfjsdlkflsdjfl sjdfls
-          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
-          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
-          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
-          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
-          jfsdf sdkfjsdlkflsdjfl sjdfls
-          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
+          jfsdf sdkfjsdlkflsdjfl sjdfls jfksdf lsdfjldsfj sdfksdjf sfdsjfs
+          sdfjsdkl jfsdf sdkfjsdlkflsdjfl sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs
+          dfsdk sdfkjsdkf s skjdfsd skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf
+          sfjskf sdlorem loremsd sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj
+          sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl sjdfls jfksdf
+          lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
           sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
           skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
           sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
           jfsdf sdkfjsdlkflsdjfl sjdfls
         </div>
         <div>
-          <div className="border h-5 rounded-lg ss" style={{minHeight:"90%", overflowY:'scroll'}}>
-            
+          <div
+            className="border -z-10 h-5 rounded-lg ss"
+            style={{ minHeight: "90%", overflowY: "scroll" }}
+          >
             <Editojs />
             {/* <button className="btn my-4">submit</button> */}
           </div>
           <button className="btn my-2 btn-wide">submit</button>
         </div>
       </div>
-      <div className="mx-8">
-        <div class="avatar-group -space-x-4">
+      <div className="mx-8 flex ">
+        <div class="avatar-group -z-20  -space-x-6">
           <div class="avatar">
             <div class="w-12">
               <img src="https://placeimg.com/192/192/people" />
@@ -84,17 +93,21 @@ const TaskPage = () => {
               <img src="https://placeimg.com/192/192/people" />
             </div>
           </div>
-          <div class="avatar">
-            <div class="w-12">
-              <img src="https://placeimg.com/192/192/people" />
+          <Tooltip data={data}>
+            <div class="avatar">
+              <div class="w-12">
+                <img src="https://placeimg.com/192/192/people" />
+              </div>
             </div>
-          </div>
-          <div class="avatar placeholder">
-            <div class="w-12 bg-neutral-focus text-neutral-content">
-              <span>+99</span>
-            </div>
-          </div>
+          </Tooltip>
         </div>
+        <Tooltip data={data}>
+          <div class="avatar placeholder">
+            <div class="bg-neutral-focus text-neutral-content rounded-full w-12">
+              <span class="text-xl">+99</span>
+            </div>
+          </div>
+        </Tooltip>
       </div>
     </>
   );
