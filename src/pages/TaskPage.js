@@ -23,7 +23,7 @@ const TaskPage = () => {
         </span>
       </div>
       <div className="flex justify-between mx-8 align-middle">
-        <Avatar name="Abrar Fahim" role="manager" />
+        <Avatar name="Riaz Hasan" role="manager" />
         <div className="self-center">
           <CustomCountDown />
         </div>
@@ -38,34 +38,19 @@ const TaskPage = () => {
       </div>
       <div className="grid grid-cols-2 gap-12 mx-8 my-3 justify-around min-h-1/4">
         <div className="min-h-full min-w-full  p-3 content-center self-center">
-          ejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd skdfjsd
-          skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd sdkfjsd
-          fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf
-          sdkfjsdlkflsdjfl sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk
-          sdfkjsdkf s skjdfsd skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf
-          sdlorem loremsd sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf
-          sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl sjdflsejkdflks kdjfdks
-          kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd skdfjsd skdfj sdfjsdkf
-          skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd sdkfjsd fskfjslkdfj sdfs
-          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
-          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
-          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
-          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
-          jfsdf sdkfjsdlkflsdjfl sjdfls
-          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
-          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
-          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
-          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
-          jfsdf sdkfjsdlkflsdjfl sjdfls
-          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
-          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
-          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
-          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
-          jfsdf sdkfjsdlkflsdjfl sjdfls
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam
+          cupiditate aliquid rerum nulla dolorem? Temporibus, quibusdam quam
+          voluptatem amet dolorem vero, minus quos blanditiis distinctio porro
+          tempore odio enim. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Autem eum exercitationem, natus animi, earum nesciunt molestiae
+          numquam porro eaque sunt repellendus? Praesentium aut architecto vero
+          placeat. Fugiat expedita corrupti sit.
         </div>
         <div>
-          <div className="border h-5 rounded-lg ss" style={{minHeight:"90%", overflowY:'scroll'}}>
-            
+          <div
+            className="border h-5 rounded-lg ss"
+            style={{ minHeight: "90%", overflowY: "scroll" }}
+          >
             <Editojs />
             {/* <button className="btn my-4">submit</button> */}
           </div>

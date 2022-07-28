@@ -1,16 +1,14 @@
 import React from "react";
-
 import Editor from "react-simple-code-editor";
 import { highlight, languages } from "prismjs/components/prism-core";
 import "prismjs/components/prism-clike";
 import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-python";
 import "prismjs/themes/prism.css";
-
-import "./../custom.css";
+import "../EditorJs.css";
 
 const Editojs = () => {
-  console.log(languages)
+  console.log(languages);
   const [code, setCode] = React.useState(
     `function add(a, b) {\n  return a + b;\n}`
   );
@@ -23,7 +21,7 @@ const Editojs = () => {
     <Editor
       value={code}
       onValueChange={(code) => setCode(code)}
-      highlight={(code) => hightlightWithLineNumbers(code, languages.python)}
+      highlight={(code) => hightlightWithLineNumbers(code, languages.js)}
       padding={10}
       textareaId="codeArea"
       className="editor"
