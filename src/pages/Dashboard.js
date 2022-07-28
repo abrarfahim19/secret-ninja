@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import CreateModal from "./CreateModal";
 
 const Dashboard = () => {
   const admin = true;
@@ -49,6 +50,9 @@ const Dashboard = () => {
           {sideBarItems}
         </ul>
       </div>
+
+      {/* modal section for create task  */}
+      <CreateModal />
     </div>
   );
 };
