@@ -100,7 +100,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost font-bold normal-case text-xl">
-          Celestial Manufacturer
+          Secret Ninja
         </Link>
       </div>
       <div className="navbar-end ">

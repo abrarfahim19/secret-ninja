@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomCountDown from "./components/CustomCountDown";
 
 const Pending = () => {
   return (
@@ -40,10 +41,7 @@ const Pending = () => {
                 <span class="badge badge-ghost badge-sm">Front End</span>
               </td>
               <td>
-                <span class="countdown font-mono text-2xl">
-                  <span style={{ "--value": 10 }}>1D</span>:<span>5h</span>:
-                  <span>10m</span>
-                </span>
+                <CustomCountDown />
               </td>
               <th>
                 <button class="btn btn-ghost btn-xs">

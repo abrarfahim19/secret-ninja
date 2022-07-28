@@ -31,7 +31,7 @@ const TaskPage = () => {
         </span>
       </div>
       <div className="flex justify-between mx-8 align-middle">
-        <Avatar name="Abrar Fahim" role="manager" />
+        <Avatar name="Riaz Hasan" role="manager" />
         <div className="self-center">
           <CustomCountDown />
         </div>
@@ -73,6 +73,17 @@ const TaskPage = () => {
         <div>
           <div
             className="border -z-10 h-5 rounded-lg ss"
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam
+          cupiditate aliquid rerum nulla dolorem? Temporibus, quibusdam quam
+          voluptatem amet dolorem vero, minus quos blanditiis distinctio porro
+          tempore odio enim. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Autem eum exercitationem, natus animi, earum nesciunt molestiae
+          numquam porro eaque sunt repellendus? Praesentium aut architecto vero
+          placeat. Fugiat expedita corrupti sit.
+        </div>
+        <div>
+          <div
+            className="border h-5 rounded-lg ss"
             style={{ minHeight: "90%", overflowY: "scroll" }}
           >
             <Editojs />

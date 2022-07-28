@@ -7,25 +7,23 @@ const CustomCountDown = () => {
     <div class="flex gap-5">
       <div>
         <span class="countdown font-mono text-2xl">
-          <span style={{"--value":day}}></span>
+          D<span style={{ "--value": day }}></span>
         </span>
       </div>
       <div>
-        <span class="countdown font-mono text-2xl">:
-          <span style={{"--value":hour}}></span>
+        <span class="countdown font-mono text-2xl">
+          h<span style={{ "--value": hour }}></span>
         </span>
       </div>
       <div>
-        <span class="countdown font-mono text-2xl">:
-          <span style={{"--value":minute}}></span>
+        <span class="countdown font-mono text-2xl">
+          m<span style={{ "--value": minute }}></span>
         </span>
-        
       </div>
       <div>
-        <span class="countdown font-mono text-2xl">:
-          <span style={{"--value":second}}></span>
+        <span class="countdown font-mono text-2xl">
+          s<span style={{ "--value": second }}></span>
         </span>
-        
       </div>
     </div>
   );
