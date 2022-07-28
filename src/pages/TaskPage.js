@@ -46,40 +46,14 @@ const TaskPage = () => {
       </div>
       <div className="grid grid-cols-2 gap-12 mx-8 my-3 justify-around min-h-1/4">
         <div className="min-h-full min-w-full  p-3 content-center self-center">
-          ejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd skdfjsd
-          skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd sdkfjsd
-          fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf
-          sdkfjsdlkflsdjfl sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk
-          sdfkjsdkf s skjdfsd skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf
-          sdlorem loremsd sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf
-          sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl sjdflsejkdflks kdjfdks
-          kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd skdfjsd skdfj sdfjsdkf
-          skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd sdkfjsd fskfjslkdfj sdfs
-          jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
-          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
-          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
-          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
-          jfsdf sdkfjsdlkflsdjfl sjdfls jfksdf lsdfjldsfj sdfksdjf sfdsjfs
-          sdfjsdkl jfsdf sdkfjsdlkflsdjfl sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs
-          dfsdk sdfkjsdkf s skjdfsd skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf
-          sfjskf sdlorem loremsd sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj
-          sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl sjdfls jfksdf
-          lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl jfsdf sdkfjsdlkflsdjfl
-          sjdflsejkdflks kdjfdks kdsfjdsk ksdjfs dfsdk sdfkjsdkf s skjdfsd
-          skdfjsd skdfj sdfjsdkf skdfjs sdkfjsk fksjf sfjskf sdlorem loremsd
-          sdkfjsd fskfjslkdfj sdfs jfksdf lsdfjldsfj sdfksdjf sfdsjfs sdfjsdkl
-          jfsdf sdkfjsdlkflsdjfl sjdfls
-        </div>
-        <div>
-          <div
-            className="border -z-10 h-5 rounded-lg ss"
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam
-          cupiditate aliquid rerum nulla dolorem? Temporibus, quibusdam quam
-          voluptatem amet dolorem vero, minus quos blanditiis distinctio porro
-          tempore odio enim. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Autem eum exercitationem, natus animi, earum nesciunt molestiae
-          numquam porro eaque sunt repellendus? Praesentium aut architecto vero
-          placeat. Fugiat expedita corrupti sit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magni,
+          omnis id ex adipisci labore, sed quaerat fugiat veniam dicta illum
+          voluptatem quis eaque facilis dignissimos perferendis dolores ea cum?
+          Enim fugit velit, vel quidem voluptas iste aperiam odit minus. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Tenetur facilis
+          alias repellendus tempora! Possimus ad totam ratione earum
+          perspiciatis quasi voluptate accusamus vel ex. Ut illo harum natus
+          perferendis minus.
         </div>
         <div>
           <div
