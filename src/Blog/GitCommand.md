@@ -64,3 +64,5 @@ We want the marge back in local brancName2 we can do it like this
 `git checkout <branchName2>` to revert back to the local branch
 
 `git merge origin/<branchName2>` to merge the branches
+
+=======
