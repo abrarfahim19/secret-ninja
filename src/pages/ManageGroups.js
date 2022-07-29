@@ -1,9 +1,202 @@
 import React from "react";
 
 const ManageGroups = () => {
+  const activeGroup = "ring ring-primary ring-offset-base-100";
   return (
     <div>
-      <h2>Manage Groups</h2>
+      <h2 className="m-4 text-2xl font-bold">My Groups</h2>
+      <div className="m-4 Groups flex gap-3">
+        <div class="avatar">
+          <div class="w-16 rounded-full">
+            <img src="https://placeimg.com/192/192/people" alt="" />
+          </div>
+        </div>
+        <div class="avatar ">
+          <div class={`w-16  rounded-full ${activeGroup}`}>
+            <img src="https://placeimg.com/192/192/people" alt="" />
+          </div>
+        </div>
+        <div class="avatar">
+          <div class="w-16 rounded-full">
+            <img src="https://placeimg.com/192/192/people" alt="" />
+          </div>
+        </div>
+        <div class="avatar placeholder">
+          <div class="bg-neutral-focus text-neutral-content rounded-full w-16">
+            <span class="text-3xl font-bold">+</span>
+          </div>
+        </div>
+      </div>
+      {/* task manage button */}
+      <div className="m-4 grid">
+        <button class="btn btn-active w-1/2 justify-self-end btn-primary">
+          Task Manage
+        </button>
+      </div>
+      {/* group manager */}
+      <div className="m-4 group-manager">
+        <h3 className="text-2xl font-bold inline">Group Manager</h3>
+        <div class="ml-4 avatar placeholder">
+          <div class="bg-neutral-focus text-neutral-content rounded-full w-8">
+            <span class="text-xl font-bold">+</span>
+          </div>
+        </div>
+        <div className="managers">
+          <table className="m-2 table w-full">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Bio</th>
+                <th>status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* <!-- row 1 --> */}
+              <tr>
+                <td>
+                  <div class="flex items-center space-x-3">
+                    <div class="avatar">
+                      <div class="mask mask-circle w-12 h-12">
+                        <img
+                          src="https://placeimg.com/192/192/people"
+                          alt="Avatar Tailwind CSS Component"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="font-bold">Hart Hagerty</div>
+                      <div class="text-sm opacity-50">United States</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  Zemlak, Daniel and Leannon
+                  <br />
+                  <span class="badge badge-ghost badge-sm">
+                    Desktop Support Technician
+                  </span>
+                </td>
+                <td>Purple</td>
+                <th>
+                  <button class="btn btn-ghost btn-xs">details</button>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="flex items-center space-x-3">
+                    <div class="avatar">
+                      <div class="mask mask-circle w-12 h-12">
+                        <img
+                          src="https://placeimg.com/192/192/people"
+                          alt="Avatar Tailwind CSS Component"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="font-bold">Hart Hagerty</div>
+                      <div class="text-sm opacity-50">United States</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  Zemlak, Daniel and Leannon
+                  <br />
+                  <span class="badge badge-ghost badge-sm">
+                    Desktop Support Technician
+                  </span>
+                </td>
+                <td>Purple</td>
+                <th>
+                  <button class="btn btn-ghost btn-xs">details</button>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {/* group members */}
+      <div className="m-4 group-members">
+        <h3 className="text-2xl font-bold inline">Group Memebers</h3>
+        <div class="ml-4 avatar placeholder">
+          <div class="bg-neutral-focus text-neutral-content rounded-full w-8">
+            <span class="text-xl font-bold">+</span>
+          </div>
+        </div>
+        <div className="members">
+          <table className="m-2 table w-full">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Bio</th>
+                <th>status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* <!-- row 1 --> */}
+              <tr>
+                <td>
+                  <div class="flex items-center space-x-3">
+                    <div class="avatar">
+                      <div class="mask mask-circle w-12 h-12">
+                        <img
+                          src="https://placeimg.com/192/192/people"
+                          alt="Avatar Tailwind CSS Component"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="font-bold">Hart Hagerty</div>
+                      <div class="text-sm opacity-50">United States</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  Zemlak, Daniel and Leannon
+                  <br />
+                  <span class="badge badge-ghost badge-sm">
+                    Desktop Support Technician
+                  </span>
+                </td>
+                <td>Purple</td>
+                <th>
+                  <button class="btn btn-ghost btn-xs">details</button>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="flex items-center space-x-3">
+                    <div class="avatar">
+                      <div class="mask mask-circle w-12 h-12">
+                        <img
+                          src="https://placeimg.com/192/192/people"
+                          alt="Avatar Tailwind CSS Component"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <div class="font-bold">Hart Hagerty</div>
+                      <div class="text-sm opacity-50">United States</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  Zemlak, Daniel and Leannon
+                  <br />
+                  <span class="badge badge-ghost badge-sm">
+                    Desktop Support Technician
+                  </span>
+                </td>
+                <td>Purple</td>
+                <th>
+                  <button class="btn btn-ghost btn-xs">details</button>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 };
