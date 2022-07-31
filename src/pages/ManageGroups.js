@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ManageGroups = () => {
   const activeGroup = "ring ring-primary ring-offset-base-100";
   return (
     <div>
-      <h2 className="m-4 text-2xl font-bold">My Groups</h2>
       <div className="m-4 Groups flex gap-3">
         <div class="avatar">
           <div class="w-16 rounded-full">
@@ -28,10 +28,24 @@ const ManageGroups = () => {
         </div>
       </div>
       {/* task manage button */}
-      <div className="m-4 grid">
-        <button class="btn btn-active w-1/2 justify-self-end btn-primary">
-          Task Manage
-        </button>
+      <div className="m-4 flex justify-between">
+        <h2 className="m-4 text-3xl text-center font-bold text-primary">
+          SQL Group
+        </h2>
+        <div className="Admin-buttons">
+          <Link
+            class="m-4 btn btn-active w-3/2 justify-self-end btn-info"
+            to="/dashboard/createtask"
+          >
+            Manage Group
+          </Link>
+          <Link
+            class="m-4 btn btn-active w-3/2 justify-self-end btn-primary"
+            to="/dashboard/createtask"
+          >
+            Task Manage
+          </Link>
+        </div>
       </div>
       {/* group manager */}
       <div className="m-4 group-manager">
