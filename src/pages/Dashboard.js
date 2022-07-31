@@ -15,7 +15,7 @@ const Dashboard = () => {
       {admin && (
         <>
           <li>
-            <Link to="/dashboard/managegroups">Manage Groups</Link>
+            <Link to="/dashboard/managegroups">My Groups</Link>
           </li>
         </>
       )}

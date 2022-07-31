@@ -5,6 +5,9 @@ import CustomCountDown from "./components/CustomCountDown";
 const Submitted = () => {
   return (
     <div>
+      <h2 className="m-4 text-3xl text-center font-bold text-primary">
+        Submitted Task
+      </h2>
       <div class="overflow-x-auto w-full">
         <table class="table w-full">
           {/* <!-- head --> */}
