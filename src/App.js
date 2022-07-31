@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Assignment from "./pages/Assignment";
+import CreateTask from "./pages/CreateTask";
 import Dashboard from "./pages/Dashboard";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/dashboard/pending" element={<Pending />} />
           <Route path="/dashboard/submitted" element={<Submitted />} />
           <Route path="/dashboard/taskpage" element={<TaskPage />} />
+          <Route path="/dashboard/createtask" element={<CreateTask />} />
         </Route>
       </Routes>
       <Footer />
