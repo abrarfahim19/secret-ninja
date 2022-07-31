@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Assignment from "./pages/Assignment";
 import Dashboard from "./pages/Dashboard";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
+        <Route path="assignment" element={<Assignment />} />
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="login" element={<Login />} />
