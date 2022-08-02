@@ -1,0 +1,30 @@
+[
+    {
+        "user1":{
+            "id":"1001def",
+            "email":"u1@a.com",
+            "date_created": "12-12-12",
+            "img_link": "https://placeimg.com/192/192/people",
+            "groups" : [
+                {
+                    "id": "Group1ID"
+                },
+                {
+                    "id": "Group2ID"
+                },
+                {
+                    "id": "Group3ID"
+                },
+                {
+                    "id": "Group4ID"
+                }
+            ],
+            "bio": "Sams Musa the techGuru. Some call me Kopa Samsu",
+            "social_link":{
+                "Github": "www.github.com/samsmusa",
+                "LinkedIn": "www.linkedIn.com/in/samsmusa",
+                "Facebook": "www.facebook.com/samsmusa"
+            }
+        }
+    }
+]

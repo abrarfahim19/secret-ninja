@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CustomCountDown from "./components/CustomCountDown";
+import task from "../FakeDB/Task.json";
 
 const Submitted = () => {
   return (
@@ -21,37 +22,50 @@ const Submitted = () => {
           </thead>
           <tbody>
             {/* <!-- row 1 --> */}
-            <tr>
-              <td>
-                <div class="flex items-center space-x-3">
-                  <div class="avatar">
-                    <div class="mask mask-squircle w-12 h-12">
-                      <img
-                        src="https://placeimg.com/192/192/people"
-                        alt="Avatar Tailwind CSS Component"
-                      />
+            {task?.map((t) => {
+              return (
+                <tr>
+                  <td>
+                    <div class="flex items-center space-x-3">
+                      <div class="avatar">
+                        <div class="mask mask-squircle w-12 h-12">
+                          <img
+                            src={t.assigned_by.img_link}
+                            alt="Avatar Tailwind CSS Component"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <div class="font-bold">{t.assigned_by.name}</div>
+                        <div class="text-sm opacity-50">
+                          {t.assigned_by.email}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <div class="font-bold">Riaz Hassan</div>
-                    <div class="text-sm opacity-50">United States</div>
-                  </div>
-                </div>
-              </td>
-              <td>
-                Make A responsive website with Redux
-                <br />
-                <span class="badge badge-ghost badge-sm">Front End</span>
-              </td>
-              <td>
-                <CustomCountDown />
-              </td>
-              <th>
-                <button class="btn btn-ghost btn-xs">
-                  <Link to="/dashboard/taskpage">Details</Link>
-                </button>
-              </th>
-            </tr>
+                  </td>
+                  <td>
+                    {t.name}
+                    <br />
+                    {t.tags?.map((tag) => {
+                      return (
+                        <span class="m-1 badge badge-ghost badge-sm">
+                          {tag}
+                        </span>
+                      );
+                    })}
+                  </td>
+                  <td>
+                    <CustomCountDown time={t.submission_date} />
+                    {/* {t.submission_date} */}
+                  </td>
+                  <th>
+                    <button class="btn btn-ghost btn-xs">
+                      <Link to="/dashboard/taskpage">Details</Link>
+                    </button>
+                  </th>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

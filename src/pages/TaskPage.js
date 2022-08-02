@@ -33,7 +33,7 @@ const TaskPage = () => {
       <div className="flex justify-between mx-8 align-middle">
         <Avatar name="Riaz Hasan" role="manager" />
         <div className="self-center">
-          <CustomCountDown />
+          <CustomCountDown time={"August 29, 2022 12:56:25"} />
         </div>
       </div>
       <div className="mx-8 my-2">

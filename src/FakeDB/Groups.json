@@ -1,0 +1,185 @@
+[
+    {
+        "id":"group1",
+            "name":"group1",
+            "date_created":"12-12-12",
+            "created_by":{
+                "id":"1001abc",
+                "email":"a1@a.com"
+            },
+            "group_image": "https://placeimg.com/192/192/people",
+            "total_task":12,
+            "admin":[
+                {
+                    "id":"1001abc",
+                    "email":"a1@a.com",
+                    "img_link": "https://placeimg.com/192/192/people"
+                },
+                {
+                    "id":"1000abc",
+                    "email":"a2@a.com",
+                    "img_link": "https://placeimg.com/192/192/people"
+                }
+            ],
+            "users":[
+                {
+                    "id":"1001def",
+                    "email":"u1@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":10
+                },
+                {
+                    "id":"1002def",
+                    "email":"u2@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1003def",
+                    "email":"u3@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":8
+                },
+                {
+                    "id":"1004def",
+                    "email":"u4@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1005def",
+                    "email":"u5@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1006def",
+                    "email":"u6@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                }
+            ]
+    },
+    {
+        "id":"group1",
+            "name":"group1",
+            "date_created":"12-12-12",
+            "created_by":{
+                "id":"1001abc",
+                "email":"a1@a.com"
+            },
+            "group_image": "https://placeimg.com/192/192/people",
+            "total_task":12,
+            "admin":[
+                {
+                    "id":"1001abc",
+                    "email":"a1@a.com",
+                    "img_link": "https://placeimg.com/192/192/people"
+                },
+                {
+                    "id":"1000abc",
+                    "email":"a2@a.com",
+                    "img_link": "https://placeimg.com/192/192/people"
+                }
+            ],
+            "users":[
+                {
+                    "id":"1001def",
+                    "email":"u1@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":10
+                },
+                {
+                    "id":"1002def",
+                    "email":"u2@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1003def",
+                    "email":"u3@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":8
+                },
+                {
+                    "id":"1004def",
+                    "email":"u4@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1005def",
+                    "email":"u5@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1006def",
+                    "email":"u6@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                }
+            ]
+    },
+    {
+        "id":"group1",
+            "name":"group1",
+            "date_created":"12-12-12",
+            "created_by":{
+                "id":"1001abc",
+                "email":"a1@a.com"
+            },
+            "group_image": "https://placeimg.com/192/192/people",
+            "total_task":12,
+            "admin":[
+                {
+                    "id":"1001abc",
+                    "email":"a1@a.com",
+                    "img_link": "https://placeimg.com/192/192/people"
+                },
+                {
+                    "id":"1000abc",
+                    "email":"a2@a.com",
+                    "img_link": "https://placeimg.com/192/192/people"
+                }
+            ],
+            "users":[
+                {
+                    "id":"1001def",
+                    "email":"u1@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":10
+                },
+                {
+                    "id":"1002def",
+                    "email":"u2@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1003def",
+                    "email":"u3@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":8
+                },
+                {
+                    "id":"1004def",
+                    "email":"u4@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1005def",
+                    "email":"u5@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1006def",
+                    "email":"u6@a.com",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                }
+            ]
+    }
+]
