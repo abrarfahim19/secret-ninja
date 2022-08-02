@@ -1,16 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import group from "../FakeDB/Groups.json";
 
 const ManageGroups = () => {
+  console.log(group);
   const activeGroup = "ring ring-primary ring-offset-base-100";
   return (
     <div>
       <div className="m-4 Groups flex gap-3">
-        <div class="avatar">
-          <div class="w-16 rounded-full">
-            <img src="https://placeimg.com/192/192/people" alt="" />
-          </div>
-        </div>
+        {group.map((g) => {
+          return (
+            <div class="avatar">
+              <div class="w-16 rounded-full">
+                <img src={g.group_image} alt="" />
+              </div>
+            </div>
+          );
+        })}
+
         <div class="avatar ">
           <div class={`w-16  rounded-full ${activeGroup}`}>
             <img src="https://placeimg.com/192/192/people" alt="" />

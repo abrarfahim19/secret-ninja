@@ -1,16 +1,14 @@
-import {useState} from 'react';
+import { useEffect, useState } from "react";
 
-const useCountdown = () => {
-  
-
+const useCountdown = (time) => {
   const [day, setDay] = useState(0);
   const [minute, setMinute] = useState(0);
   const [hour, setHour] = useState(0);
   const [second, setSecond] = useState(0);
-  const countDownDate = new Date("July 29, 2022 12:56:25").getTime();
+  const countDownDate = new Date(time).getTime();
 
   // Update the count down every 1 second
-  // useEffect(() => {
+  useEffect(() => {
     const x = setInterval(function () {
       let now = new Date().getTime();
       let distance = countDownDate - now;
@@ -32,8 +30,8 @@ const useCountdown = () => {
         setSecond(0);
       }
     }, 1000);
-  // }, []);
-  return {day, hour, minute, second}
+  }, [time]);
+  return { day, hour, minute, second };
 };
 
 export default useCountdown;
