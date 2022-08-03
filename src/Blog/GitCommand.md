@@ -22,7 +22,7 @@ Go to the new Branch with `git checkout <branchName>`
 
 ## For working remotely
 
-================
+====================================================================
 
 _User 1_
 Create a new Branch with `git branch <branchName1>`
@@ -35,7 +35,7 @@ Go to the new Branch with `git checkout <branchName1>`
 
 `git push`
 
-=================
+====================================================================
 
 _User 2_
 Create a new Branch with `git branch <branchName2>`
@@ -48,7 +48,7 @@ Go to the new Branch with `git checkout <branchName2>`
 
 `git push`
 
-=================
+====================================================================
 
 - Make pull request in the browser.
 - merge without the conflict.
@@ -65,4 +65,7 @@ We want the marge back in local brancName2 we can do it like this
 
 `git merge origin/<branchName2>` to merge the branches
 
-=======
+====================================================================
+
+`git branch --delete <localBranchName>`
+`git push origin --delete <remoteBranchName>`

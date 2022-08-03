@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Assignment from "./pages/Assignment";
 import CreateTask from "./pages/CreateTask";
 import Dashboard from "./pages/Dashboard";
 import Footer from "./pages/Footer";
+import Group from "./pages/Groups";
+import GroupDetails from "./pages/GroupDetails";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ManageGroups from "./pages/ManageGroups";
@@ -19,11 +20,12 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="assignment" element={<Assignment />} />
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
+        <Route path="groups" element={<Group />} />
+        <Route path="/groups/:groupID" element={<GroupDetails />} />
         <Route path="dashboard" element={<Dashboard />}>
           <Route index element={<Profile />} />
           <Route path="/dashboard/managegroups" element={<ManageGroups />} />

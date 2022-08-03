@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomLinkForNav from "./components/CustomLinkForNav";
 
 const Navbar = () => {
   const logout = () => {
@@ -12,30 +13,30 @@ const Navbar = () => {
     <>
       {/* Always Display */}
       <li className="font-semibold">
-        <Link to="/">Home</Link>
+        <CustomLinkForNav to="/">Home</CustomLinkForNav>
       </li>
       <li className="font-semibold">
-        <Link to="/groups">Groups</Link>
+        <CustomLinkForNav to="/groups">Groups</CustomLinkForNav>
       </li>
       <li className="font-semibold">
-        <Link to="/myportfolio">ANy Idea?</Link>
+        <CustomLinkForNav to="/myportfolio">ANy Idea?</CustomLinkForNav>
       </li>
 
       {user ? (
         <>
           {/* Logged In Display */}
           <li className="font-semibold">
-            <Link to="/dashboard">Dashboard</Link>
+            <CustomLinkForNav to="/dashboard">Dashboard</CustomLinkForNav>
           </li>
         </>
       ) : (
         <>
           {/* Logged Out Display */}
           <li className="font-semibold">
-            <Link to="/login">Login</Link>
+            <CustomLinkForNav to="/login">Login</CustomLinkForNav>
           </li>
           <li className="font-semibold">
-            <Link to="/register">Register</Link>
+            <CustomLinkForNav to="/register">Register</CustomLinkForNav>
           </li>
         </>
       )}
