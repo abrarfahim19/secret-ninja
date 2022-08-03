@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { FiEdit, FiCamera } from "react-icons/fi";
 import { GrAddCircle } from "react-icons/gr";
+import CreateManageModal from "./CreateManageModal";
+import CreateMemberModal from "./CreateMemberModal";
 const Profile = () => {
+  
+  const [isSubmit, setIsSubmit] = useState(false)
   const [selectinfo, setSelectinfo] = useState(1);
   const [edutcationval, setEducationval] = useState(0);
 
@@ -182,6 +186,10 @@ const Profile = () => {
         </div>
         <div className="border-l  pt-3 pl-4 w-4/6">{info()}</div>
       </div>
+      <label for="createModal" class="btn modal-button">open modal</label>
+      <label onClick={()=>setIsSubmit(false)} for="createMemberModal" class="btn modal-button">open member</label>
+      {/* <CreateManageModal /> */}
+      <CreateMemberModal isSubmit={isSubmit} setIsSubmit={setIsSubmit}  />
     </div>
   );
 };
