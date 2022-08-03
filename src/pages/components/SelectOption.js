@@ -15,6 +15,24 @@ export default function SelectOption() {
     { value: "TypeScript", label: "TypeScript" },
     { value: "whwite", label: "Whidfte" },
     { value: "whgite", label: "Whdfdite" },
+    { value: "Express", label: "Express" },
+    { value: "Docker", label: "Docker" },
+    { value: "AWS", label: "AWS" },
+    { value: "TypeScript", label: "TypeScript" },
+    { value: "whwite", label: "Whidfte" },
+    { value: "whgite", label: "Whdfdite" },
+    { value: "Express", label: "Express" },
+    { value: "Docker", label: "Docker" },
+    { value: "AWS", label: "AWS" },
+    { value: "TypeScript", label: "TypeScript" },
+    { value: "whwite", label: "Whidfte" },
+    { value: "whgite", label: "Whdfdite" },
+    { value: "Express", label: "Express" },
+    { value: "Docker", label: "Docker" },
+    { value: "AWS", label: "AWS" },
+    { value: "TypeScript", label: "TypeScript" },
+    { value: "whwite", label: "Whidfte" },
+    { value: "whgite", label: "Whdfdite" },
   ];
 
   // Function triggered on selection
@@ -25,13 +43,13 @@ export default function SelectOption() {
   }
   return (
     <div className="app">
-      <h2>Choos Task Tags</h2>
+      <h2>Group Members</h2>
       <div className="dropdown-container">
         <Creatable
           // allowCreateWhileLoading={true}
           maxMenuHeight={200}
           options={optionList}
-          placeholder="Select Tag"
+          placeholder="Select Member"
           value={selectedOptions}
           onChange={handleSelect}
           isSearchable={true}

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import CreateModal from "./CreateModal";
+import CreateManageModal from "./CreateManageModal";
+import CreateMemberModal from "./CreateMemberModal";
 
 const Dashboard = () => {
   const admin = true;
@@ -52,7 +53,8 @@ const Dashboard = () => {
       </div>
 
       {/* modal section for create task  */}
-      <CreateModal />
+      <CreateManageModal />
+      
     </div>
   );
 };
