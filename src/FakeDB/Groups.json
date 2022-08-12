@@ -1,4 +1,4 @@
-[
+[    
     {
         "id":"group1",
             "name":"group1",
@@ -12,11 +12,90 @@
             "admin":[
                 {
                     "id":"1001abc",
+                    "name":"Riaz Mahmud",
+                    "bio": "A very Good Boy",
+                    "email":"a1@a.com",
+                    "status":"Working on Redux",
+                    "img_link": "https://placeimg.com/192/192/people"
+                }
+            ],
+            "users":[
+                {
+                    "id":"1001def",
+                    "name":"Riaz Mahmud",
+                    "email":"u1@a.com",
+                    "bio": "A very Good Boy",
+                    "status":"Working on JS",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":10
+                },
+                {
+                    "id":"1002def",
+                    "name":"Riaz Mahmud",
+                    "email":"u2@a.com",
+                    "bio": "A very Good Boy",
+                    "status":"Working on TypeScript",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1003def",
+                    "name":"Riaz Mahmud",
+                    "email":"u3@a.com",
+                    "bio": "A very Good Boy",
+                    "status":"Working on TypeScript",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":8
+                },
+                {
+                    "id":"1004def",
+                    "name":"Riaz Mahmud",
+                    "email":"u4@a.com",
+                    "bio": "A very Good Boy",
+                    "status":"Working on TypeScript",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1005def",
+                    "name":"Riaz Mahmud",
+                    "email":"u5@a.com",
+                    "bio": "A very Good Boy",
+                    "status":"Working on TypeScript",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                },
+                {
+                    "id":"1006def",
+                    "name":"Riaz Mahmud",
+                    "email":"u6@a.com",
+                    "bio": "A very Good Boy",
+                    "status":"Working on TypeScript",
+                    "img_link": "https://placeimg.com/192/192/people",
+                    "submitted":12
+                }
+            ]
+    },
+    {
+        "id":"group2",
+            "name":"group1",
+            "date_created":"12-12-12",
+            "created_by":{
+                "id":"1001abc",
+                "email":"a1@a.com"
+            },
+            "group_image": "https://placeimg.com/192/192/people",
+            "total_task":12,
+            "admin":[
+                {
+                    "id":"1001abc",
+                    "name":"Riaz Mahmud",
                     "email":"a1@a.com",
                     "img_link": "https://placeimg.com/192/192/people"
                 },
                 {
                     "id":"1000abc",
+                    "name":"Riaz Mahmud",
                     "email":"a2@a.com",
                     "img_link": "https://placeimg.com/192/192/people"
                 }
@@ -24,36 +103,42 @@
             "users":[
                 {
                     "id":"1001def",
+                    "name":"Riaz Mahmud",
                     "email":"u1@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":10
                 },
                 {
                     "id":"1002def",
+                    "name":"Riaz Mahmud",
                     "email":"u2@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12
                 },
                 {
                     "id":"1003def",
+                    "name":"Riaz Mahmud",
                     "email":"u3@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":8
                 },
                 {
                     "id":"1004def",
+                    "name":"Riaz Mahmud",
                     "email":"u4@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12
                 },
                 {
                     "id":"1005def",
+                    "name":"Riaz Mahmud",
                     "email":"u5@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12
                 },
                 {
                     "id":"1006def",
+                    "name":"Riaz Mahmud",
                     "email":"u6@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12
@@ -61,7 +146,7 @@
             ]
     },
     {
-        "id":"group1",
+        "id":"group3",
             "name":"group1",
             "date_created":"12-12-12",
             "created_by":{
@@ -73,11 +158,13 @@
             "admin":[
                 {
                     "id":"1001abc",
+                    "name":"Riaz Mahmud",
                     "email":"a1@a.com",
                     "img_link": "https://placeimg.com/192/192/people"
                 },
                 {
                     "id":"1000abc",
+                    "name":"Riaz Mahmud",
                     "email":"a2@a.com",
                     "img_link": "https://placeimg.com/192/192/people"
                 }
@@ -85,97 +172,42 @@
             "users":[
                 {
                     "id":"1001def",
+                    "name":"Riaz Mahmud",
                     "email":"u1@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":10
                 },
                 {
                     "id":"1002def",
+                    "name":"Riaz Mahmud",
                     "email":"u2@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12
                 },
                 {
                     "id":"1003def",
+                    "name":"Riaz Mahmud",
                     "email":"u3@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":8
                 },
                 {
                     "id":"1004def",
+                    "name":"Riaz Mahmud",
                     "email":"u4@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12
                 },
                 {
                     "id":"1005def",
+                    "name":"Riaz Mahmud",
                     "email":"u5@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12
                 },
                 {
                     "id":"1006def",
-                    "email":"u6@a.com",
-                    "img_link": "https://placeimg.com/192/192/people",
-                    "submitted":12
-                }
-            ]
-    },
-    {
-        "id":"group1",
-            "name":"group1",
-            "date_created":"12-12-12",
-            "created_by":{
-                "id":"1001abc",
-                "email":"a1@a.com"
-            },
-            "group_image": "https://placeimg.com/192/192/people",
-            "total_task":12,
-            "admin":[
-                {
-                    "id":"1001abc",
-                    "email":"a1@a.com",
-                    "img_link": "https://placeimg.com/192/192/people"
-                },
-                {
-                    "id":"1000abc",
-                    "email":"a2@a.com",
-                    "img_link": "https://placeimg.com/192/192/people"
-                }
-            ],
-            "users":[
-                {
-                    "id":"1001def",
-                    "email":"u1@a.com",
-                    "img_link": "https://placeimg.com/192/192/people",
-                    "submitted":10
-                },
-                {
-                    "id":"1002def",
-                    "email":"u2@a.com",
-                    "img_link": "https://placeimg.com/192/192/people",
-                    "submitted":12
-                },
-                {
-                    "id":"1003def",
-                    "email":"u3@a.com",
-                    "img_link": "https://placeimg.com/192/192/people",
-                    "submitted":8
-                },
-                {
-                    "id":"1004def",
-                    "email":"u4@a.com",
-                    "img_link": "https://placeimg.com/192/192/people",
-                    "submitted":12
-                },
-                {
-                    "id":"1005def",
-                    "email":"u5@a.com",
-                    "img_link": "https://placeimg.com/192/192/people",
-                    "submitted":12
-                },
-                {
-                    "id":"1006def",
+                    "name":"Riaz Mahmud",
                     "email":"u6@a.com",
                     "img_link": "https://placeimg.com/192/192/people",
                     "submitted":12

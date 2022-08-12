@@ -5,20 +5,16 @@ const CustomLinkGroup = ({ children, to, ...props }) => {
   let resolved = useResolvedPath(to);
   let match = useMatch({ path: resolved.pathname, end: true });
   return (
-    <div>
-      <Link
-        // style={{ textDecoration: match ? "underline" : "none" }}
-        // "text-emerald-600"
+    <div class="avatar">
+      <div
         className={`${
           match
-            ? "font-bold after:content-[''] after:block after:w-full after:h-1 after:bg-primary"
-            : "after:content-[''] after:block after:w-0 after:h-1 after:bg-primary after:ease-in after:duration-300 hover:after:w-full"
+            ? "w-16 rounded-full ring ring-primary ring-offset-base-100"
+            : "w-16 rounded-full"
         }`}
-        to={to}
-        {...props}
       >
-        {children}
-      </Link>
+        <Link to={to}>{children}</Link>
+      </div>
     </div>
   );
 };
